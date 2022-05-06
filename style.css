@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    padding: 20px 160px 80px;
+    row-gap: 80px;
+}
+
+.header, .header-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 200px 100px;
+    row-gap: 40px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 80px;
+}
+
+.image1 {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.image2 {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.third {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 250px;
+    row-gap: 15px;
+}
+
+.quote {
+    font-size: 28px;
+    font-family: light italic;
+}
+
+.author {
+    text-align: end;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+}
+
+.ad {
+    display: flex;
+    background-color: #3882F6;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    border-radius: 10px;
+    color: white
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.top-button {
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+.bottom-button {
+    border-color: white;
+    border-style: solid;
+}
+
+
+
+
+
+
