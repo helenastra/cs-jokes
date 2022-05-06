@@ -1,2 +1,2 @@
-# cs-jokes
-some amazing jokes for programmers
+# programming-humour
+compilation of bad cs jokes
