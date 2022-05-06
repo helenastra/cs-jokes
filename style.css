@@ -11,7 +11,7 @@
 
 .first {
     display: flex;
-    background-color: #1F2937;
+    background-color: #325f45;
     flex-direction: column;
     padding: 20px 160px 80px;
     row-gap: 80px;
@@ -60,16 +60,16 @@ li {
 }
 
 .image1 {
-    width: 500px;
-    height: 250px;
+    width: 600px;
+    height: 350px;
     object-fit: cover;
 }
 
 .image2 {
     border: 2px solid black;
     border-radius: 10px;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     margin-bottom: 20px;
     object-fit: cover;
 }
@@ -117,7 +117,7 @@ li {
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #325f45;
     color: white;
     padding: 25px;
     display: flex;
