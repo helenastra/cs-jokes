@@ -11,23 +11,28 @@
 
 .first {
     display: flex;
-    background-color: #325f45;
+    background-color: #c8949a;
     flex-direction: column;
-    padding: 20px 160px 80px;
-    row-gap: 80px;
+    padding: 80px 160px;
+    align-content: center;
 }
 
 .header, .header-content {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     color: white;
+}
+
+.header {
+    background-color: #a96b73;
+    padding: 20px 160px;
 }
 
 .left {
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 20px;
     padding-right: 40px;
 }
 
@@ -49,19 +54,27 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 200px 100px;
+    padding: 40px 100px 100px;
     row-gap: 40px;
     text-align: center;
 }
 
 .container {
     display: flex;
-    gap: 80px;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+
+.smaller {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .image1 {
-    width: 600px;
-    height: 350px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -102,7 +115,7 @@ li {
 
 .ad {
     display: flex;
-    background-color: #3882F6;
+    background-color: #cd3b64;
     width: 600px;
     justify-content: space-between;
     align-items: center;
@@ -118,7 +131,7 @@ li {
 }
 
 .footer {
-    background-color: #325f45;
+    background-color: #c8949a;
     color: white;
     padding: 25px;
     display: flex;
@@ -129,12 +142,12 @@ li {
 button {
     padding: 5px 20px;
     border-radius: 5px;
-    background-color: #3882F6;
+    background-color: #cd3b64;
     color: white;
 }
 
 .top-button {
-    border-color: #3882F6;
+    border-color: #cd3b64;
     border-style: solid;
 }
 
