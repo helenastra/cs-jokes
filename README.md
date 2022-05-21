@@ -1,3 +1,5 @@
 # programming-humour
-compilation of bad cs jokes
-https://helenastra.github.io/programming-humour/
+
+Webpage created with Flexbox as a part of the Odin Project. 
+
+Live Link - https://helenastra.github.io/programming-humour/
