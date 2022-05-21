@@ -4,11 +4,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.body {
-    display: flex;
-    flex-direction: column;
-}
-
 .first {
     display: flex;
     background-color: #c8949a;
